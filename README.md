@@ -15,4 +15,33 @@ per-pixel probability of boundary which outperforms the Canny and Sobel Edge Det
 ## Details
 Input image
 
-<img src ="BSDS500/Images/1.jpg">
+<img src ="BSDS500/Images/1.jpg" width="400">
+
+Derivative of Gaussian Filter (DoG), Leung-Malik Filter (LM) and Gabor Filter Banks:
+
+<p float ="left">
+  <img src ="Code/results/DoG.png" width="300">
+  <img src ="Code/results/LML.png" width ="300">
+  <img src ="Code/results/Gabor.png" width ="300">
+</p>
+
+Texton, Brightness and Color Gradient maps:
+<p float ="left">
+  <img src ="Code/results/1/Tg_1.png" width="300">
+  <img src ="Code/results/1/Bg_1.png" width ="300">
+  <img src ="Code/results/1/Cg_1.png" width ="300">
+</p>
+
+## Results:
+Sobel, Canny, and PbLite edge detections
+<p float ="left">
+  <img src ="BSDS500/SobelBaseline/1.png" width="300">
+  <img src ="BSDS500/CannyBaseline/1.png" width ="300">
+  <img src ="Code/results/1/PbLite_1.png" width ="300">
+</p>
+
+## Libraries Required:
+1. Numpy
+2. OpenCV
+3. Matplotlib
+4. Scikit-Learn

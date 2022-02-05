@@ -10,7 +10,9 @@ significantly outperforms these classical methods by considering texture and col
 discontinuities. Qualitatively, much of this performance jump comes from the ability of the pb algorithm to suppress false positives 
 that the classical methods produce in textured regions. This project is a simplified version of pb, which finds boundaries by examining 
 brightness, color, and texture information across multiple scales (different sizes of objects/image). The output of the algorithm is a 
-per-pixel probability of boundary which outperforms the Canny and Sobel Edge Detectors.
+per-pixel probability of boundary which outperforms the Canny and Sobel Edge Detectors.\
+This project implements a simpler version of the algorithm presented in this 
+[paper](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/papers/amfm_pami2010.pdf)
 
 ## Details
 Input image

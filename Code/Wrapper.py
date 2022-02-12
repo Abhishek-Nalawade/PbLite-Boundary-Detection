@@ -7,13 +7,10 @@ Homework 0: Alohomora: Phase 1 Starter Code
 
 
 Author(s):
-Nitin J. Sanket (nitin@terpmail.umd.edu)
-PhD Candidate in Computer Science,
+Abhishek Nalawade (abhi1793@umd.edu)
+M.Eng Candidate in Robotics,
 University of Maryland, College Park
 
-Chahat Deep Singh (chahat@terpmail.umd.edu)
-PhD Student in Computer Science,
-University of Maryland, College Park
 """
 
 # Code starts here:
